@@ -16,7 +16,8 @@ contract('SimpleStore', (accounts) => {
       await instance.setValue(newValue, {from: accounts[0]})
       expect(await instance.getValue()).to.be.eq(newValue)
     })
-    it.only('should cost a small amount of wei', async () => {
+
+    it('should cost a small amount of wei', async () => {
       gasPrice = await web3.eth.getGasPrice()
       balBefore = await web3.eth.getBalance(accounts[1])
       tx = await instance.setValue('Something new!!', {from: accounts[1]})
