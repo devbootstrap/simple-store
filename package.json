@@ -1,0 +1,27 @@
+{
+  "name": "simple-store",
+  "version": "1.0.0",
+  "description": "A simple smart contract example ",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.1",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbootstrap/simple-store.git"
+  },
+  "author": "Darren Jensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbootstrap/simple-store/issues"
+  },
+  "homepage": "https://github.com/devbootstrap/simple-store#readme"
+}
